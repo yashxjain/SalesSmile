@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "chart.js": "^4.4.3",
-    "date-fns": "^3.6.0",
+    "date-fns": "^2.25.0",
     "dayjs": "^1.11.12",
     "framer-motion": "^11.3.24",
     "leaflet": "^1.9.4",
@@ -58,5 +58,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@csstools/normalize.css": "^12.1.1",
+    "postcss-normalize": "^13.0.0"
   }
 }
