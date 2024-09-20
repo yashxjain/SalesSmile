@@ -35,7 +35,6 @@ const EmployeeData = ({ EmpId }) => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
     const [activeTab, setActiveTab] = useState(0);
-    const theme = useTheme();
 
     useEffect(() => {
         const fetchEmployeeData = async () => {
